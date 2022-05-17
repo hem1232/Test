@@ -16,7 +16,7 @@ steps:
 - task: Npm@1
   displayName: 'npm install'
   inputs:
-     workingDir: 'Test'
+     workingDir: '$(build.sourcesDirectory)/WK.Capego.Cloud.MemoryDumps.UI'
      verbose: false
 
 - script: |
